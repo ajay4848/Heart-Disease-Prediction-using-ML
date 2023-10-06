@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+
+
+
+.head1{
+
+  }
+
+.h1{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.row1 {
+  display: flex; /* Make the parent a flex container */
+  flex-direction: column; /* Stack the child items vertically */
+  /* align-items: center;  */
+}
+
+top {
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  width: 60%;
+}
+
+.qut{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+  
+
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+  height: 100vh; /* Set the height of the div to full viewport height */
+  width: 100%; /* Set the width of the div to 100% */
+  position: relative;
+
+ 
+  align-items: center;
+} 
+
+label{
+
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  font-size: large  ;
+ 
+}
+
+
+/* 
+input{
+
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  border-style: none;
+  border: none;
+  color: #000000;
+  
+ 
+  padding-bottom: 5px;
+  opacity: 0.4;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* width: 360px;
+  height: 30px;
+  
+  
+}
+
+
+
+
+
+
+
+
+input[type=text]:focus {
+  border: 3px solid #fefefe;
+  color: #000000;
+}
+
+
+
+select{
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  border : none;
+  width: 360px;
+  height: 30px;
+  color: #000000;
+  /* opacity: 0.5; */
+  /*background-color: rgba(255, 255, 255, 0.5);
+  
+}  */
+/* button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+<!-- HTML !-->
+<button class="button-35" role="button">Button 35</button> */
+
+/* CSS */
+/* .button-1{
+  
+align-items: center;
+background-color: #fff;
+border-radius: 12px;
+box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+box-sizing: border-box;
+color: #121212;
+cursor: pointer;
+display: inline-flex;
+flex: 1 1 auto;
+font-family: Inter,sans-serif;
+font-size: 1.2rem;
+font-weight: 700;
+justify-content: center;
+line-height: 1;
+margin: 0;
+outline: none;
+padding: 1rem 1.2rem;
+text-align: center;
+text-decoration: none;
+transition: box-shadow .2s,-webkit-box-shadow .2s;
+white-space: nowrap;
+border: 0;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-1{
+box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+} */
+
+
+
+
+input:active {
+  border-color: red;
+}
+
+input{
+
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  border-style: none;
+  border: none;
+  
+ 
+  padding-bottom: 5px;
+  /* opacity: 0.5; */
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 360px;
+  height: 30px;
+  
+  
+}
+#input_text9  :focus{
+  background-color: transparent;
+}
+
+input:focus {
+  color: red;
+  
+}
+
+
+input:focus {
+  border-color: red;
+  background-color: #f5f5f5;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input:active {
+  border:none;
+}
+input:focus {
+  border-color: none;
+}
+
+select{
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  border : none;
+  width: 360px;
+  height: 30px;
+  /* opacity: 0.5; */
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.b1{
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+
+  padding: 4rem;
+  font-family: 'lato';
+
+}
+
+#out1{
+  color: #000000;
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 1.6rem;
+  
+}
+
+
+/* CSS */
+.button-1 {
+background-color: #222;
+border-radius: 4px;
+border-style: none;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.5;
+margin: 0;
+max-width: none;
+min-height: 44px;
+min-width: 10px;
+outline: none;
+overflow: hidden;
+padding: 9px 20px 8px;
+position: relative;
+text-align: center;
+text-transform: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 100%;
+}
+
+.button-1:hover,
+.button-1:focus {
+opacity: .75;
+}
+
+.output{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family:'Montserrat';
+
+  padding: 4rem;
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+
+}
+
+#m1{
+
+  font-family: 'Montserrat';
+  padding: 1rem;
+}
+
+
+table{
+
+ 
+
+  font-family: 'montserrat';
+  width: 670px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-collapse: collapse;
+  border: solid 1px black;
+  border-radius: 5px;
+
+
+}
+
+th {
+	text-align: left;
+}
+
+
+	th {
+		background-color: #55608f;
+	}
+
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #000000;
+}
+
+.table1{
+
+
+  display: flex;
+  align-items: center;
+  justify-self: center;
+
+
+}
+
+.graph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#h2{
+
+  padding: 2rem;
+}
+
+
+
+
+
+/* --------------- */
+
+
+
+
+
+
+
+
+/* --------------- */
